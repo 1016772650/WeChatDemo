@@ -1,0 +1,15 @@
+<!--pages/test_label/test_label.wxml-->
+<view class='section section_gap'>
+  <view class='section_title'>表单在组件label内</view>
+  <checkbox-group class='group' bindchange='chenkboxChange'>
+    <view class='label-1' wx:for='{{checkboxItems}}' wx:key='{{key}}'>
+      <label>
+        <checkbox hidden value='{{item.name}}' checked='{{item.checked}}'></checkbox>
+        <view class='label-1_icon'>
+          <view class='label-1_icon_checked' style='opacity:{{item.checked ? 1 : 0}}'></view>
+        </view>
+        <text class='label-1_text'>{{item.value}}</text>
+      </label>
+    </view>
+  </checkbox-group>
+</view>

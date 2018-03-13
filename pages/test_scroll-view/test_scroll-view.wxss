@@ -1,0 +1,30 @@
+/* pages/test_scroll-view/test_scroll-view.wxss */
+.section {
+  background-color: aliceblue;
+}
+
+.scroll-view-item {
+  height: 100px;
+  width: 100px;
+}
+
+.bc_green {
+  background-color: green;
+}
+
+.bc_red {
+  background-color: red;
+}
+
+.bc_yellow {
+  background-color: yellow;
+}
+
+.bc_blue {
+  background-color: blue;
+}
+
+.section_title {
+  margin-bottom: 15px;
+  text-align: center;
+}

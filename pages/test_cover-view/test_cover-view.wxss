@@ -1,0 +1,30 @@
+/* pages/test_cover-view/test_cover-view.wxss */
+.controls {
+  position: relative;
+  top: 100%;
+  height: 30px;
+   margin-top: -28px; 
+  display: flex;
+}
+
+.play, .pause, .time {
+  flex: 1;
+  height: 100%;
+}
+
+.img {
+  width: 20px;
+  height: 20px;
+  margin: 5px auto;
+}
+
+.time {
+  text-align: center;
+  background-color: rgba(0, 0, 0, .5);
+  color: white;
+  line-height: 30px;
+}
+
+.video {
+  text-align: center;
+}

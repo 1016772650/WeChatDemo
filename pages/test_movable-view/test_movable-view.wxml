@@ -1,0 +1,17 @@
+<!--pages/test_movable-view/test_movable-view.wxml-->
+<view class='section'>
+  <view class='section_title'>movable-view 区域小于 movable-area</view>
+  <movable-area style='height: 100px; width: 100px; background: #FFE4E1;'>
+    <movable-view style='height: 50px; width: 50px; background: #FFF8DC;' x='{{x}}' y="{{y}}" direction='all'></movable-view>
+  </movable-area>
+</view>
+<button size='mini' bindtap='tap'>click me to move to (30px,30px)</button>
+<view class='section_title'>movable-view区域大于movable-area</view>
+<movable-area style='height: 100px; width: 100px; background: #FFE4E1;'>
+  <movable-view style='height: 100px; width: 200px; background: #FFF8DC;' direction='all'></movable-view>
+</movable-area>
+<view class='section_title'>可缩放</view>
+<movable-area style='height: 100px; width: 200px; background: #FFE4E1;' scale-area>
+  <movable-view style='height: 50px; width: 50px; background-color: #FFF8DC;' direction='all' bindchange="onChange" bindscale='onScale' scale scale-min='0.5' scale-max='4' scale-value='2'></movable-view>
+</movable-area>
+

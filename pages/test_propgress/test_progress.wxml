@@ -1,0 +1,4 @@
+<!--pages/test_propgress/test_progress.wxml-->
+<progress percent='20' show-info></progress>
+<progress percent='40' stroke-width='12'></progress>
+<progress percent='60' backgroundColor='pink' active activeColor='red' />

@@ -1,0 +1,6 @@
+<!--pages/test_navigator/test_navigator.wxml-->
+<view class='btn-area'>
+  <navigator url='/pages/test_form/test_form' hover-class='navigator-hover'>跳转到新页面</navigator>
+  <navigator url='/pages/test_input/test_input' open-type='redirect' hover-class='other-navigator-hover'>在当前页打开</navigator>
+  <navigator url='/pages/test_icon/text_icon' open-type='switchTab' hover-class='navigator-hover'>切换 Tab</navigator>
+</view>

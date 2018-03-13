@@ -1,0 +1,10 @@
+/* pages/test_form/test_form.wxss */
+.section {
+  margin: 5px;
+
+}
+
+.section_title {
+  text-align: center;
+  font-size: 20px;
+}

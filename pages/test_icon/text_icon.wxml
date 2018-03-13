@@ -1,0 +1,6 @@
+<!--pages/test_icon/text_icon.wxml-->
+<view class='group'>
+  <block wx:for="{{iconSize}}" wx:key='{{index}}'>
+    <icon type='success' size='{{item}}'></icon>
+  </block>
+</view>

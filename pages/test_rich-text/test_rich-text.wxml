@@ -1,0 +1,2 @@
+<!--pages/test_rich-text/test_rich-text.wxml-->
+<rich-text nodes='{{nodes}}' bindtap='tap'></rich-text>

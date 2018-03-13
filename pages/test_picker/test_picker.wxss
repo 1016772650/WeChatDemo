@@ -1,0 +1,5 @@
+/* pages/test_picker/test_picker.wxss */
+.section_title{
+  text-align: center;
+  margin: 10px;
+}

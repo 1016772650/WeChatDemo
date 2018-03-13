@@ -1,0 +1,34 @@
+{
+  "pages":[ 
+    "pages/test_video/test_video",
+    "pages/test_audio/test_audio",
+    "pages/test_navigator/test_navigator",
+    "pages/test_form/test_form",
+    "pages/test_input/test_input",
+    "pages/test_label/test_label",
+    "pages/test_picker/test_picker",
+    "pages/test_picker-view/test_picker-view",
+    "pages/test_slider/test_slider",
+    "pages/test_switch/test_switch",
+    "pages/test_textarea/test_textarea",
+    "pages/test_checkbox/test_checkbox",
+    "pages/test_button/test_button",
+    "pages/test_propgress/test_progress",
+    "pages/test_rich-text/test_rich-text",
+    "pages/test_text/test_text",
+    "pages/test_icon/text_icon",
+    "pages/test_cover-view/test_cover-view",
+    "pages/test_movable-view/test_movable-view",
+    "pages/test_swiper/test_swiper",
+    "pages/test_scroll-view/test_scroll-view",
+    "pages/test_view/test_view",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

@@ -1,0 +1,11 @@
+.button-hover {
+  background-color: antiquewhite;
+}
+
+.other-button-hover {
+  background-color: darkcyan;
+}
+
+button {
+  background-color: antiquewhite;
+}

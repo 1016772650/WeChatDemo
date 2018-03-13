@@ -1,0 +1,12 @@
+<!--pages/test_input/test_input.wxml-->
+<view class='section'>
+  <input maxlength='10' placeholder='最大长度10'></input>
+</view>
+<view class='section'>
+  <view class='section_title'>输入的是： {{inputValue}}</view>
+  <input bindinput='bindKeyInput' placeholder='输入同步展示' ></input>
+</view>
+
+<view class='section'>
+  <input bindinput='bindReplaceInput' placeholder='连续的两个1会变成2'></input>
+</view>

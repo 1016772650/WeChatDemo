@@ -1,0 +1,16 @@
+<!--pages/test_textarea/test_textarea.wxml-->
+<view class='section'>
+  <textarea bindblur='bindTextAreaBlur' auto-height placeholder='自动变高' placeholder-style='color: red;'></textarea>
+</view>
+<view class='section'>
+  <textarea placeholder='按钮点击时聚焦' focus='{{focus}}'></textarea>
+  <view class='btn-area'>
+    <button bindtap='bindButtonTap'>输入框获得焦点</button>
+  </view>
+</view>
+<view class='section'>
+  <form bindsubmit='bindSubmit'>
+    <textarea placeholder='form 中的 textarea' name='textarea' auto-focus></textarea>
+    <button form-type='submit'>提交</button>
+  </form>
+</view>

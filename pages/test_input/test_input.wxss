@@ -1,0 +1,5 @@
+/* pages/test_input/test_input.wxss */
+.section{
+  border: 1px solid red;
+  margin: 5px;
+}

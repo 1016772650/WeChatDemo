@@ -1,0 +1,36 @@
+/* pages/test_label/test_label.wxss */
+.section_title{
+  text-align: center;
+  margin: 10px;
+}
+
+.label-1, .label-2 {
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+.label-1_icon {
+  position: relative;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 18px;
+  height: 18px;
+  background-color: #FAEBD7;
+  border-radius: 50%;
+}
+
+.label-1_icon_checked {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 12px;
+  height: 12px;
+  background-color: #1aad19;
+  border-radius: 50%;
+}
+
+.label-1_text, label-2_text {
+  display: inline-block;
+  vertical-align: middle;
+}
